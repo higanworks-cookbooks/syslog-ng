@@ -36,7 +36,7 @@ package "syslog-ng" do
 end
 
 service "syslog-ng" do
-  support [:restart, :reload, :status]
+  supports [:restart, :reload, :status]
   action [:enable, :start]
 end
 
